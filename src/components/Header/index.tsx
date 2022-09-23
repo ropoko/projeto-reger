@@ -1,34 +1,21 @@
-import { NavLink } from 'react-router-dom'
+import './header.style.css'
 
 const Header = () => {
-	const activeClassName = 'nav-active'
-
 	return (
-		<>
-			<header>
-				<h1>Projeto Reger</h1>
-			</header>
-			<nav>
-				<NavLink
-					to="home"
-					className={({ isActive }) => (isActive ? activeClassName : undefined)}
-				>
-					Home
-				</NavLink>
-				<NavLink
-					to="about"
-					className={({ isActive }) => (isActive ? activeClassName : undefined)}
-				>
-					Sobre
-				</NavLink>
-				<NavLink
-					to="contact"
-					className={({ isActive }) => (isActive ? activeClassName : undefined)}
-				>
-					Contato
-				</NavLink>
-			</nav>
-		</>
+		<header>
+			<div className="overlay">
+				<img
+					src="https://cdns1.2rscms.com.br/custom/2008/uploads/header/topo_60f18c0fd3099.png"
+					alt="Logo Unisagrado"
+				/>
+				<h1>
+					{' '}
+					<strong className="highlight">REGER - Re</strong>dução da{' '}
+					<strong className="highlight">Ge</strong>ração de
+					<strong className="highlight"> R</strong>esíduos
+				</h1>
+			</div>
+		</header>
 	)
 }
 

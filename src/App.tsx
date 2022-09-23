@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -9,7 +8,7 @@ import Header from './components/Header'
 function App() {
 	return (
 		<BrowserRouter>
-			<div className="temp-wrapper">
+			<div className="wrapper">
 				<Header />
 				<Routes>
 					<Route path="home" element={<Home />} />
