@@ -4,3 +4,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.nav-active {
+  color: purple;
+  font-weight: bold;
+	text-decoration: none;
+}
+
+.temp-wrapper{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+}
+
+nav{
+	display: flex;
+	gap: 24px;
+}
