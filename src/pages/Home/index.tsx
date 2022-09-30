@@ -11,10 +11,10 @@ function Home() {
 					<Header />
 				</div>
 				<div className="buttons">
-					<ButtonLink link="/home" color="fc000a" text="O Projeto" />
+					<ButtonLink link="/project" color="fc000a" text="O Projeto" />
 					<ButtonLink link="/about" color="a6131a" text="O quê fazemos" />
 					<ButtonLink link="/contact" color="fc000a" text="Onde estamos" />
-					<ButtonLink link="/contact" color="a6131a" text="Dicas" />
+					<ButtonLink link="/tips" color="a6131a" text="Dicas" />
 				</div>
 			</div>
 		</>

@@ -1,10 +1,10 @@
-import '../../styles/pages/contact.style.css'
+import '../../styles/pages/about.style.css'
 
-function Contact() {
+function Project() {
 	return (
-		<div className="contact">
+		<div className="project">
 			<div className="content">
-				<strong>Contato</strong>
+				<strong>Projeto</strong>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
 					maiores rerum aperiam exercitationem repudiandae consequuntur facilis,
@@ -19,4 +19,4 @@ function Contact() {
 	)
 }
 
-export default Contact
+export default Project
