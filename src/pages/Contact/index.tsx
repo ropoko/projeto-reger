@@ -1,8 +1,10 @@
+import ButtonBackHome from '../../components/ButtonBackHome'
 import '../../styles/pages/contact.style.css'
 
 function Contact() {
 	return (
 		<div className="contact">
+			<ButtonBackHome />
 			<div className="content">
 				<strong>Contato</strong>
 				<p>

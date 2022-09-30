@@ -1,8 +1,10 @@
+import ButtonBackHome from '../../components/ButtonBackHome'
 import '../../styles/pages/tips.style.css'
 
 function Tips() {
 	return (
 		<div className="tips">
+			<ButtonBackHome />
 			<div className="content">
 				<strong>Dicas</strong>
 				<p>
