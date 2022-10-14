@@ -30,30 +30,39 @@ function Home() {
 					as novas gerações.
 				</p>
 
-				<div className="authors-dev">
-					<h3>Desenvolvedores</h3>
-					<p>
-						<strong>Professor: </strong>Vinicius Santos Andrade - Ciência da
-						Computação
-					</p>
-					<ul>
-						<li>Rodrigo Maganha Stramantinoli</li>
-						<li>Roger Santos Barreto</li>
-						<li>Felipe Evaristo dos Santos</li>
-						<li>Leandro Gomes Zavan</li>
-					</ul>
-				</div>
+				<div className="grid">
+					<div>
+						<div className="authors-dev">
+							<h3>Desenvolvedores</h3>
+							<p>
+								<strong>Professor: </strong>Vinicius Santos Andrade - Ciência da
+								Computação
+							</p>
+							<ul>
+								<li>Rodrigo Maganha Stramantinoli</li>
+								<li>Roger Santos Barreto</li>
+								<li>Felipe Evaristo dos Santos</li>
+								<li>Leandro Gomes Zavan</li>
+							</ul>
+						</div>
 
-				<div className="authors-design">
-					<h3>Designers</h3>
-					<p>
-						<strong>Professora: </strong>Sileide Aparecida - Design
-					</p>
-					<ul>
-						<li>Amanda Scola Gaioti</li>
-						<li>Davi Ramos</li>
-						<li>Hanna Govedice</li>
-					</ul>
+						<div className="authors-design">
+							<h3>Designers</h3>
+							<p>
+								<strong>Professora: </strong>Sileide Aparecida - Design
+							</p>
+							<ul>
+								<li>Amanda Scola Gaioti</li>
+								<li>Davi Ramos</li>
+								<li>Hanna Govedice</li>
+							</ul>
+						</div>
+					</div>
+					<img
+						className="team-img"
+						src="/assets/img_team.svg"
+						alt="Imagem meramente Ilustrativa"
+					/>
 				</div>
 			</div>
 		</>
