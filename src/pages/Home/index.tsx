@@ -9,10 +9,10 @@ function Home() {
 			<div className="background">
 				<div className="header-wrapper">
 					<Header />
-					<button type="button" className="button-credits">
+					<a type="button" href="#team" className="button-credits">
 						<img src="/assets/arrow-down.svg" alt="arrow-down" />
 						Créditos
-					</button>
+					</a>
 				</div>
 				<div className="buttons">
 					<ButtonLink link="/project" color="fc000a" text="O Projeto" />
@@ -21,7 +21,7 @@ function Home() {
 					<ButtonLink link="/tips" color="a6131a" text="Dicas" />
 				</div>
 			</div>
-			<div className="credits">
+			<div id="team" className="credits">
 				<h1>Créditos</h1>
 
 				<h2>Objetivo</h2>
