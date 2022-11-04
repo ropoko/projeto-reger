@@ -10,6 +10,10 @@ function Home() {
 			<div className="background">
 				<div className="header-wrapper">
 					<Header />
+					<button type="button" className="button-credits">
+						<img src="/assets/arrow-down.svg" alt="arrow-down" />
+						Créditos
+					</button>
 				</div>
 				<div className="buttons">
 					<ButtonLink link="/project" color="fc000a" text="O Projeto" />
