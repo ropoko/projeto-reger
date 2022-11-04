@@ -38,21 +38,3 @@
 	grid-template-columns: repeat(4, 1fr);
 	z-index: 1;
 }
-
-.credits {
-	padding: 1rem;
-}
-
-.objective-desc {
-	padding: 0 2rem;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.team-img {
-	width: 90%;
-	height: 90%;
-}
