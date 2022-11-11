@@ -1,12 +1,12 @@
 import ButtonBackHome from '../../components/ButtonBackHome'
-import '../../styles/pages/about.style.css'
+import '../../styles/pages/project.style.css'
 
 function Project() {
 	return (
 		<div className="project">
 			<ButtonBackHome />
 			<div className="content">
-				<strong>Projeto</strong>
+				<h1>Projeto</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
 					maiores rerum aperiam exercitationem repudiandae consequuntur facilis,

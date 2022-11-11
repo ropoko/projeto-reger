@@ -6,7 +6,7 @@ function Contact() {
 		<div className="contact">
 			<ButtonBackHome />
 			<div className="content">
-				<strong>Contato</strong>
+				<h1>Contato</h1>
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
 					maiores rerum aperiam exercitationem repudiandae consequuntur facilis,
