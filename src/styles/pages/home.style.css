@@ -1,4 +1,4 @@
-.background{
+.background {
 	width: 100vw;
 	height: 100vh;
 }
@@ -9,17 +9,17 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	background: no-repeat url('/public/assets/background.jpg');
+	background: no-repeat url("/public/assets/background.jpg");
 	background-size: cover;
 }
 
-.background::before {
-	content: '';
+.background::after {
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 0;
 }
@@ -35,9 +35,10 @@
 
 .buttons {
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	height: 40vh;
+	display: flex;
 	z-index: 1;
+	flex-wrap: wrap-reverse;
 }
 
 .button-credits {
@@ -58,6 +59,7 @@
 	cursor: pointer;
 	text-decoration: none;
 	font-size: 15px;
+	text-align: center;
 }
 
 .button-credits > img {
@@ -66,10 +68,25 @@
 }
 
 @keyframes bounce {
-  0% {
-    bottom: 15px;
-  }
-  100% {
-    bottom: 5px;
-  }
+	0% {
+		bottom: 15px;
+	}
+	100% {
+		bottom: 5px;
+	}
+}
+
+@media (max-width: 800px) {
+	 .background {
+		height: auto;
+	}
+	.buttons {
+		height: auto;
+	}
+
+	.background .header-wrapper {
+		width: 100%;
+		height: auto;
+		padding: 20vh 0;
+	}
 }
