@@ -8,10 +8,10 @@ function Tips() {
 			<div className="content">
 				<h1>Dicas</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-					maiores rerum aperiam exercitationem repudiandae consequuntur facilis,
-					nisi assumenda laborum nulla nostrum! Totam fugiat hic, quas nostrum
-					nulla esse? Laborum, doloremque.
+					Estamos presentes por todo o campus Unisagrado, seja por meio dos
+					pontos de hidratacao ou dos pontos para descarte de residuo,
+					entretanto, como podemos levar a essencia do Reger para casa e por
+					onde estivermos.
 				</p>
 			</div>
 			<footer>

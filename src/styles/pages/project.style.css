@@ -7,12 +7,26 @@
 	justify-content: center;
 }
 
-h1 {
-	margin-bottom: 1rem;
+.project .content h1 {
+	margin-bottom: 3rem;
+	color: #fff;
+}
+
+.project .content h1::before {
+	content: '';
+	display: block;
+	width: 21rem;
+	background: #a6131a;
+	height: 8rem;
+	position: absolute;
+	top: 80px;
+	z-index: -1;
+	margin-left: -6rem;
+	border-radius: 15px;
 }
 
 .project .content {
-	font-size: clamp(1rem, 2vw, 1.5rem);
+	font-size: clamp(1rem, 1.4rem, 1.5rem);
 	width: 100%;
 
 	padding: 0 5rem;
@@ -22,6 +36,10 @@ h1 {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
+}
+
+.project .content > p {
+	margin-bottom: 2rem;
 }
 
 footer {

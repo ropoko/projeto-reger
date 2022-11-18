@@ -7,8 +7,22 @@
 	justify-content: center;
 }
 
-h1 {
-	margin-bottom: 1rem;
+.tips .content h1 {
+	margin-bottom: 3rem;
+	color: #fff;
+}
+
+.tips .content h1::before {
+	content: '';
+	display: block;
+	width: 20rem;
+	background: #a6131a;
+	height: 8rem;
+	position: absolute;
+	top: 100px;
+	z-index: -1;
+	margin-left: -6rem;
+	border-radius: 15px;
 }
 
 .tips .content {

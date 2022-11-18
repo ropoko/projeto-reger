@@ -7,12 +7,26 @@
 	justify-content: center;
 }
 
-h1 {
-	margin-bottom: 1rem;
+.about .content h1 {
+	margin-bottom: 3rem;
+	color: #fff;
+}
+
+.about .content h1::before {
+	content: '';
+	display: block;
+	width: 30rem;
+	background: #a6131a;
+	height: 8rem;
+	position: absolute;
+	top: 80px;
+	z-index: -1;
+	margin-left: -6rem;
+	border-radius: 15px;
 }
 
 .about .content {
-	font-size: clamp(1rem, 2vw, 1.5rem);
+	font-size: clamp(1rem, 1.4rem, 1.5rem);
 	width: 100%;
 
 	padding: 0 5rem;

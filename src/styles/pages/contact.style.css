@@ -7,8 +7,22 @@
 	justify-content: center;
 }
 
-h1 {
-	margin-bottom: 1rem;
+.contact .content h1 {
+	margin-bottom: 3rem;
+	color: #fff;
+}
+
+.contact .content h1::before {
+	content: '';
+	display: block;
+	width: 30rem;
+	background: #a6131a;
+	height: 8rem;
+	position: absolute;
+	top: 80px;
+	z-index: -1;
+	margin-left: -6rem;
+	border-radius: 15px;
 }
 
 .contact .content {
@@ -21,6 +35,10 @@ h1 {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
+}
+
+.contact .content p {
+	margin-bottom: 2rem;
 }
 
 footer {
