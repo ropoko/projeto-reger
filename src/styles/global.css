@@ -31,3 +31,13 @@ nav {
 	display: flex;
 	gap: 24px;
 }
+
+footer{
+	padding: 0 clamp(1rem, 5vw, 5rem);
+}
+
+footer img{
+	width: 100%;
+	max-width: 270px;
+	height: auto;
+}

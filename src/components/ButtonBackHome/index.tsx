@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom'
 
 function ButtonBackHome() {
 	return (
-		<Link className="arrow" to={'/'}>
-			←
-		</Link>
+		<div className="wrapper-arrow">
+			<Link className="arrow" to={'/'}>
+				←
+			</Link>
+		</div>
 	)
 }
 
